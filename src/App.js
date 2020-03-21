@@ -1,6 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Quiz from './Quiz';
+
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Welcome to React project
         </a>
       </header>
+    <Quiz/>
     </div>
   );
 }
